@@ -52,7 +52,7 @@ rechtliches.html             Übersicht aller rechtlichen Seiten
 404.html                     Fehlerseite
 styles.css                   Gestaltung
 script.js                    Einheitliche Navigation, Footer und Hervorhebung
-assets/app-icon-web.png      Echtes Magic-Notes-App-Symbol für Website/Favicon
+app-icon-web.png             Echtes Magic-Notes-App-Symbol direkt im Hauptverzeichnis
 robots.txt                   Suchmaschinen-Sperre für den Entwurf
 
 
