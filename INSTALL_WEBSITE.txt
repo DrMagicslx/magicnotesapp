@@ -48,19 +48,31 @@ nutzungsbedingungen.html    Nutzungsbedingungen
 community-richtlinien.html   Community-Regeln
 konto-loeschen.html          Externer Weg zur Kontolöschung
 support.html                 Support und Kontakt
+rechtliches.html             Übersicht aller rechtlichen Seiten
 404.html                     Fehlerseite
 styles.css                   Gestaltung
-script.js                    Mobile Navigation und Jahreszahl
-assets/logo.svg              Magic-Notes-Logo
+script.js                    Einheitliche Navigation, Footer und Hervorhebung
+assets/app-icon-web.png      Echtes Magic-Notes-App-Symbol für Website/Favicon
 robots.txt                   Suchmaschinen-Sperre für den Entwurf
 
 
 GITHUB-UPLOAD
 -------------
-Die genaue Klick-für-Klick-Anleitung erfolgt im nächsten gemeinsamen Schritt.
-Wichtig: Beim Upload müssen die Dateien selbst im Hauptverzeichnis des
-Repositories liegen – nicht der übergeordnete Ordner
-"MagicNotes_Website_Draft".
+So wird eine bereits veröffentlichte GitHub-Pages-Version aktualisiert:
+
+1. Dieses ZIP entpacken und den inneren Ordner
+   "MagicNotes_Website_Draft" öffnen.
+2. Im GitHub-Repository auf "Add file" und danach "Upload files" klicken.
+3. Den gesamten INHALT des inneren Ordners hochladen. Die Dateien müssen im
+   Hauptverzeichnis des Repositories liegen – nicht der Ordner selbst.
+4. Vorhandene Dateien bei GitHub ersetzen lassen und den Upload mit
+   "Commit changes" bestätigen.
+5. Nach ein bis zwei Minuten die Website neu laden. Falls noch die alte
+   Version erscheint, die Seite einmal vollständig neu laden.
+
+Die alte Datei "assets/logo.svg" wird nicht mehr verwendet und kann im
+Repository gelöscht werden. Falls sie liegen bleibt, stört sie die Website
+jedoch nicht.
 
 Noch keine CNAME-Datei anlegen und die Domain noch nicht verbinden. Das machen
 wir erst gemeinsam, nachdem die Vorschau geprüft wurde.
