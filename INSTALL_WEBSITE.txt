@@ -1,0 +1,74 @@
+MAGIC NOTES – WEBSITE-ENTWURF
+==============================
+
+WICHTIG
+-------
+Diese Version ist absichtlich noch nicht zur öffentlichen Veröffentlichung
+freigegeben. Alle Seiten enthalten "noindex" und die robots.txt blockiert
+Suchmaschinen.
+
+Vor dem öffentlichen Start müssen mindestens folgende Punkte erledigt werden:
+
+1. In impressum.html, datenschutz.html und nutzungsbedingungen.html alle gelb
+   markierten [PLATZHALTER] durch echte Angaben ersetzen.
+2. Gewerbe als Einzelunternehmen anmelden, bevor das kostenpflichtige Abo
+   öffentlich angeboten wird.
+3. Steuerliche Behandlung und Kleinunternehmerregelung festlegen.
+4. Supabase-Projektregion und abgeschlossene Datenschutzverträge prüfen.
+5. Kontolöschung direkt in der App implementieren und testen.
+6. Google-Play-Abo, 30-Tage-Testphase und Kaufprüfung implementieren und testen.
+7. Widerrufs- und Verbraucherinhalte fachkundig prüfen lassen.
+8. Release-Build nochmals auf tatsächlich enthaltene SDKs und Datenflüsse
+   prüfen; Datenschutzerklärung entsprechend aktualisieren.
+9. Vor dem echten Start auf allen HTML-Seiten die Zeile
+   <meta name="robots" content="noindex,nofollow">
+   entfernen oder auf index,follow ändern.
+10. robots.txt zum Release ändern in:
+
+    User-agent: *
+    Allow: /
+
+
+GEPLANTES ABO-MODELL
+--------------------
+- 30 Tage kostenlose Testphase
+- Währenddessen ALLE Funktionen ohne Einschränkungen
+- Danach 5,99 EUR pro Monat als Nutzer-Endpreis
+- Automatische monatliche Verlängerung bis zur Kündigung
+- Ohne aktives Abo bleiben Lesen, Exportieren und Löschen möglich
+- Erstellen und Bearbeiten sind ohne aktives Abo gesperrt
+
+
+DATEIEN
+-------
+index.html                   Startseite
+datenschutz.html             Datenschutzerklärung
+impressum.html               Impressum
+nutzungsbedingungen.html    Nutzungsbedingungen
+community-richtlinien.html   Community-Regeln
+konto-loeschen.html          Externer Weg zur Kontolöschung
+support.html                 Support und Kontakt
+404.html                     Fehlerseite
+styles.css                   Gestaltung
+script.js                    Mobile Navigation und Jahreszahl
+assets/logo.svg              Magic-Notes-Logo
+robots.txt                   Suchmaschinen-Sperre für den Entwurf
+
+
+GITHUB-UPLOAD
+-------------
+Die genaue Klick-für-Klick-Anleitung erfolgt im nächsten gemeinsamen Schritt.
+Wichtig: Beim Upload müssen die Dateien selbst im Hauptverzeichnis des
+Repositories liegen – nicht der übergeordnete Ordner
+"MagicNotes_Website_Draft".
+
+Noch keine CNAME-Datei anlegen und die Domain noch nicht verbinden. Das machen
+wir erst gemeinsam, nachdem die Vorschau geprüft wurde.
+
+
+RECHTLICHER HINWEIS
+-------------------
+Die Rechtstexte sind ein sorgfältig auf die aktuell geprüften App-Funktionen
+zugeschnittener Arbeitsentwurf. Sie ersetzen keine individuelle Prüfung durch
+eine Rechtsanwältin, einen Rechtsanwalt oder eine qualifizierte
+Datenschutzberatung.
