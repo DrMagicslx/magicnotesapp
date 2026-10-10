@@ -1,1 +1,1 @@
-# magicnotesapp
+# Folimira
