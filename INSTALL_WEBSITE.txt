@@ -1,5 +1,24 @@
-MAGIC NOTES – WEBSITE-ENTWURF
+FOLIMIRA – WEBSITE-ENTWURF
 ==============================
+
+UMSTELLUNG AUF FOLIMIRA – 10.10.2026
+-----------------------------------
+Der sichtbare Markenname ist auf allen neun HTML-Seiten und in der gemeinsamen
+Navigation sowie im Footer auf Folimira umgestellt. Auch Seitentitel,
+Beschreibung, Bildtexte und vorbereitete E-Mail-Betreffzeilen verwenden Folimira.
+Die Kontaktadresse lautet jetzt folimira@t-online.de.
+
+Das bestehende Design, das App-Symbol im Hauptverzeichnis und die Navigation mit
+Hervorhebung der aktuellen Seite sind erhalten. Neue Versionskennungen fuer
+JavaScript, CSS und Icon helfen gegen alte Browser-Caches.
+
+Die vorhandenen Rechtstexte wurden hinsichtlich Name und Kontaktadresse angepasst;
+ihre inhaltliche Freigabe und verbleibende Platzhalter sind weiterhin separat zu
+pruefen. Die Umbenennung allein macht den Entwurf nicht veroeffentlichungsfertig.
+
+Die vorhandene Adresse magicnotesapp.de bleibt eine technische Webadresse.
+Eine neue Folimira-Domain wird erst eingetragen, wenn sie feststeht und registriert
+ist. Dieses Paket aendert keine DNS-Einstellungen und enthaelt keine CNAME-Datei.
 
 WICHTIG
 -------
@@ -52,7 +71,7 @@ rechtliches.html             Übersicht aller rechtlichen Seiten
 404.html                     Fehlerseite
 styles.css                   Gestaltung
 script.js                    Einheitliche Navigation, Footer und Hervorhebung
-app-icon-web.png             Echtes Magic-Notes-App-Symbol direkt im Hauptverzeichnis
+app-icon-web.png             Echtes Folimira-App-Symbol direkt im Hauptverzeichnis
 robots.txt                   Suchmaschinen-Sperre für den Entwurf
 
 
@@ -61,7 +80,7 @@ GITHUB-UPLOAD
 So wird eine bereits veröffentlichte GitHub-Pages-Version aktualisiert:
 
 1. Dieses ZIP entpacken und den inneren Ordner
-   "MagicNotes_Website_Draft" öffnen.
+   "Folimira_Website_Entwurf" öffnen.
 2. Im GitHub-Repository auf "Add file" und danach "Upload files" klicken.
 3. Den gesamten INHALT des inneren Ordners hochladen. Die Dateien müssen im
    Hauptverzeichnis des Repositories liegen – nicht der Ordner selbst.
@@ -74,8 +93,9 @@ Die alte Datei "assets/logo.svg" wird nicht mehr verwendet und kann im
 Repository gelöscht werden. Falls sie liegen bleibt, stört sie die Website
 jedoch nicht.
 
-Noch keine CNAME-Datei anlegen und die Domain noch nicht verbinden. Das machen
-wir erst gemeinsam, nachdem die Vorschau geprüft wurde.
+Falls das Repository bereits eine CNAME-Datei oder eine eingerichtete eigene
+Domain hat, diese beim Datei-Upload beibehalten. Eine neue Domain richten wir
+separat ein, sobald ihr Name feststeht und sie registriert ist.
 
 
 RECHTLICHER HINWEIS

@@ -1,12 +1,12 @@
 const currentFile = window.location.pathname.split('/').pop() || 'index.html';
-const appIcon = 'app-icon-web.png?v=20261001b';
+const appIcon = 'app-icon-web.png?v=20261010a';
 
 const header = document.querySelector('.site-header');
 if (header) {
   header.innerHTML = `
     <div class="nav-wrap">
       <a class="brand" href="index.html">
-        <img src="${appIcon}" alt=""><span>Magic Notes</span>
+        <img src="${appIcon}" alt=""><span>Folimira</span>
       </a>
       <button class="nav-toggle" type="button" aria-label="Navigation öffnen" aria-expanded="false" data-nav-toggle>☰</button>
       <nav class="site-nav" aria-label="Hauptnavigation" data-nav>
@@ -26,7 +26,7 @@ if (footer) {
     <div class="container">
       <div class="footer-grid">
         <div>
-          <a class="brand" href="index.html"><img src="${appIcon}" alt=""><span>Magic Notes</span></a>
+          <a class="brand" href="index.html"><img src="${appIcon}" alt=""><span>Folimira</span></a>
           <p class="footer-copy">Eine persönliche Notiz-App mit einem kleinen Funken Magie.</p>
         </div>
         <div class="footer-links">
@@ -42,7 +42,7 @@ if (footer) {
           <a href="impressum.html" data-footer-page="impressum.html">Impressum</a>
         </div>
       </div>
-      <div class="copyright">© <span data-year></span> Magic Notes · Entwurfsstand 01.10.2026</div>
+      <div class="copyright">© <span data-year></span> Folimira · Entwurfsstand 10.10.2026</div>
     </div>`;
 }
 
