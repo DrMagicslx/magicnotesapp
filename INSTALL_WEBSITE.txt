@@ -8,6 +8,16 @@ Navigation sowie im Footer auf Folimira umgestellt. Auch Seitentitel,
 Beschreibung, Bildtexte und vorbereitete E-Mail-Betreffzeilen verwenden Folimira.
 Die Kontaktadresse lautet jetzt folimira@t-online.de.
 
+ECHTER APP-SCREENSHOT
+--------------------
+Die bisherige generische Smartphone-Illustration auf der Startseite wurde
+durch deinen aktuellen Original-Screenshot der Folimira-Notizenuebersicht
+mit App-Icon, Rasteransicht und gestalteten Notizen ersetzt.
+Die Datei assets/folimira-notes-screenshot.jpg muss mit hochgeladen werden.
+Sie wird in voller Hoehe und mit dem originalen Seitenverhaeltnis angezeigt.
+Die Bilddatei ist unveraendert; die Website fuegt nur den bestehenden Rahmen
+und die Gestaltung rund um das Bild hinzu.
+
 Das bestehende Design, das App-Symbol im Hauptverzeichnis und die Navigation mit
 Hervorhebung der aktuellen Seite sind erhalten. Neue Versionskennungen fuer
 JavaScript, CSS und Icon helfen gegen alte Browser-Caches.
@@ -72,6 +82,7 @@ rechtliches.html             Übersicht aller rechtlichen Seiten
 styles.css                   Gestaltung
 script.js                    Einheitliche Navigation, Footer und Hervorhebung
 app-icon-web.png             Echtes Folimira-App-Symbol direkt im Hauptverzeichnis
+assets/folimira-notes-screenshot.jpg  Echter Screenshot aus der App
 robots.txt                   Suchmaschinen-Sperre für den Entwurf
 
 

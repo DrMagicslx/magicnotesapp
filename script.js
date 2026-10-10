@@ -1,5 +1,5 @@
 const currentFile = window.location.pathname.split('/').pop() || 'index.html';
-const appIcon = 'app-icon-web.png?v=20261010a';
+const appIcon = 'app-icon-web.png?v=20261010b';
 
 const header = document.querySelector('.site-header');
 if (header) {
